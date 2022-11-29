@@ -1,0 +1,143 @@
+CountryId,Country,Continent
+1,Austria,Europe
+2,Belgium,Europe
+3,Bulgaria,Europe
+4,Croatia,Europe
+5,Cyprus,Europe
+6,Czechia,Europe
+7,Denmark,Europe
+8,Estonia,Europe
+9,Finland,Europe
+10,France,Europe
+11,Germany,Europe
+12,Greece,Europe
+13,Hungary,Europe
+14,Ireland,Europe
+15,Italy,Europe
+16,Latvia,Europe
+17,Lithuania,Europe
+18,Luxembourg,Europe
+19,Malta,Europe
+20,Netherlands,Europe
+21,Poland,Europe
+22,Portugal,Europe
+23,Romania,Europe
+24,Slovakia,Europe
+25,Slovenia,Europe
+26,Spain,Europe
+27,United Kingdom,Europe
+28,Sweden,Europe
+29,USA,North America
+30,Canada,North America
+31,Argentina,South America
+32,Bolivia,South America
+33,Brazil,South America
+34,Chile,South America
+35,Colombia,South America
+36,Ecuador,South America
+37,Guyana,South America
+38,Paraguay,South America
+39,Peru,South America
+40,Suriname,South America
+41,Uruguay,South America
+42,Venezuela,South America
+43,Afghanistan,Asia
+44,Bahrain,Asia
+45,Bangladesh,Asia
+46,Bhutan,Asia
+47,Brunei,Asia
+48,Burma (Myanmar),Asia
+49,Cambodia,Asia
+50,China,Asia
+51,East Timor,Asia
+52,India,Asia
+53,Indonesia,Asia
+54,Iran,Asia
+55,Iraq,Asia
+56,Israel,Asia
+57,Japan,Asia
+58,Jordan,Asia
+59,Kazakhstan,Asia
+60,"Korea, North",Asia
+61,"Korea, South",Asia
+62,Kuwait,Asia
+63,Kyrgyzstan,Asia
+64,Laos,Asia
+65,Lebanon,Asia
+66,Malaysia,Asia
+67,Maldives,Asia
+68,Mongolia,Asia
+69,Nepal,Asia
+70,Oman,Asia
+71,Pakistan,Asia
+72,Philippines,Asia
+73,Qatar,Asia
+74,Russian Federation,Asia
+75,Saudi Arabia,Asia
+76,Singapore,Asia
+77,Sri Lanka,Asia
+78,Syria,Asia
+79,Tajikistan,Asia
+80,Thailand,Asia
+81,Turkey,Asia
+82,Turkmenistan,Asia
+83,United Arab Emirates,Asia
+84,Uzbekistan,Asia
+85,Vietnam,Asia
+86,Yemen,Asia
+87,Algeria,Africa
+88,Angola,Africa
+89,Benin,Africa
+90,Botswana,Africa
+91,Burkina,Africa
+92,Burundi,Africa
+93,Cameroon,Africa
+94,Cape Verde,Africa
+95,Central African Republic,Africa
+96,Chad,Africa
+97,Comoros,Africa
+98,Congo,Africa
+99,"Congo, Democratic Republic of",Africa
+100,Djibouti,Africa
+101,Egypt,Africa
+102,Equatorial Guinea,Africa
+103,Eritrea,Africa
+104,Ethiopia,Africa
+105,Gabon,Africa
+106,Gambia,Africa
+107,Ghana,Africa
+108,Guinea,Africa
+109,Guinea-Bissau,Africa
+110,Ivory Coast,Africa
+111,Kenya,Africa
+112,Lesotho,Africa
+113,Liberia,Africa
+114,Libya,Africa
+115,Madagascar,Africa
+116,Malawi,Africa
+117,Mali,Africa
+118,Mauritania,Africa
+119,Mauritius,Africa
+120,Morocco,Africa
+121,Mozambique,Africa
+122,Namibia,Africa
+123,Niger,Africa
+124,Nigeria,Africa
+125,Rwanda,Africa
+126,Sao Tome and Principe,Africa
+127,Senegal,Africa
+128,Seychelles,Africa
+129,Sierra Leone,Africa
+130,Somalia,Africa
+131,South Africa,Africa
+132,South Sudan,Africa
+133,Sudan,Africa
+134,Swaziland,Africa
+135,Tanzania,Africa
+136,Togo,Africa
+137,Tunisia,Africa
+138,Uganda,Africa
+139,Zambia,Africa
+140,Zimbabwe,Africa
+141,Australia,Australia
+142,New Zealand,Australia

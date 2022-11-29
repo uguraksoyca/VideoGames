@@ -1,0 +1,174 @@
+Game_Id,Developer_ID,Publisher_ID,Genre_Id,Name,User_Score,Genre
+1,71,4,4,Diablo,7.5,Action
+2,114,41,3,Tomb Raider,8.8,Role-Playing
+3,84,42,11,Theme Hospital,8.6,Strategy
+4,476,143,2,Half-Life,9.4,Action
+5,116,109,8,Riven: The Sequel to Myst,8.5,Strategy
+6,107,41,3,Tomb Raider II,8.8,Adventure
+7,84,42,11,Sim Theme Park,8.7,Action
+8,249,37,10,Who wants to be a millionaire,7.2,Misc
+9,286,42,10,The Sims: Livin Large,7.6,Misc
+10,72,143,4,Diablo II: Lord of Destruction,8.7,Strategy
+11,286,42,7,The Sims: Hot Date,7,Strategy
+12,286,42,7,The Sims: House Party,8.1,Simulation
+13,96,13,11,RollerCoaster Tycoon 2,7.8,Strategy
+14,286,42,7,The Sims: Vacation,7.2,Simulation
+15,286,42,7,The Sims: Unleashed,9.1,Simulation
+16,71,4,11,Warcraft III: The Frozen Throne,7.7,Strategy
+17,286,42,7,The Sims: Superstar,9,Simulation
+18,286,42,7,The Sims: Makin' Magic,7.4,Simulation
+19,476,143,2,Half-Life 2,7.7,Sports
+20,71,4,4,World of Warcraft,7.9,Role-Playing
+21,286,42,7,The Sims 2: Nightlife,7.4,Simulation
+22,408,114,1,Worldwide Soccer Manager 2008,7.6,Shooter
+23,230,4,2,Call of Duty 4: Modern Warfare,7.5,Shooter
+24,71,4,4,World of Warcraft: The Burning Crusade,7.7,Role-Playing
+25,408,116,7,Worldwide Soccer Manager 2009,7.5,Role-Playing
+26,286,42,11,Spore,8.4,Role-Playing
+27,71,4,4,World of Warcraft: Wrath of the Lich King,9.5,Strategy
+28,109,116,11,Empire: Total War,8.1,Shooter
+29,434,42,7,The Sims 3,8.8,Simulation
+30,324,16,4,Fallout: New Vegas,7.9,Shooter
+31,408,116,1,Football Manager 2011,7.3,Role-Playing
+32,177,130,11,Sid Meier's Civilization V,8.6,Sports
+33,434,42,7,The Sims 3: Late Night Expansion Pack,7.5,Strategy
+34,71,4,4,World of Warcraft: Cataclysm,8.3,Role-Playing
+35,71,4,11,StarCraft II: Wings of Liberty,8.6,Strategy
+36,74,139,11,Anno 2070,8.6,Action
+37,408,116,1,Football Manager 2012,8.6,Role-Playing
+38,231,4,2,Call of Duty: Modern Warfare 3,7,Action
+39,145,42,2,Battlefield 3,8.9,Strategy
+40,277,42,4,Star Wars: The Old Republic,7.7,Sports
+41,54,16,4,The Elder Scrolls V: Skyrim,9.1,Shooter
+42,457,139,3,Assassin's Creed III,9.5,Shooter
+43,459,139,3,ZombiU,7.7,Shooter
+44,408,116,1,Football Manager 2013,7,Simulation
+45,445,4,2,Call of Duty: Black Ops II,7.4,Shooter
+46,71,4,4,World of Warcraft: Mists of Pandaria,9.3,Sports
+47,29,96,3,Guild Wars 2,8.4,Role-Playing
+48,310,97,10,Nintendo Land,8.8,Action
+49,71,4,4,Diablo III,9.3,Role-Playing
+50,310,97,9,New Super Mario Bros. U,8,Platform
+51,230,4,2,Call of Duty: Ghosts,8.3,Action
+52,479,4,9,Skylanders SWAP Force,9.4,Simulation
+53,457,139,10,Just Dance 2014,7.1,Shooter
+54,459,139,9,Rayman Legends,9.1,Strategy
+55,151,42,1,Madden NFL 25,8.3,Action
+56,453,97,9,LEGO City Undercover,7.7,Role-Playing
+57,310,97,11,Pikmin 3,7.4,Action
+58,115,89,3,Ryse: Son of Rome,8.3,Shooter
+59,286,42,7,SimCity (2013),7.2,Sports
+60,483,130,1,NBA 2K14,8.3,Platform
+61,89,89,3,Dead Rising 3,8.2,Sports
+62,453,145,3,LEGO Marvel Super Heroes,8.3,Sports
+63,71,4,11,StarCraft II: Heart of the Swarm,8.6,Strategy
+64,380,121,9,Knack,7.4,Action
+65,306,97,10,Wii Party U,7.2,Simulation
+66,200,42,6,Need for Speed Rivals,7.2,Action
+67,455,89,6,Forza Motorsport 5,9,Strategy
+68,310,97,9,New Super Luigi U,7.4,Platform
+69,206,119,2,Killzone: Shadow Fall,7.7,Misc
+70,457,139,3,Assassin's Creed IV: Black Flag,8.9,Racing
+71,143,42,1,FIFA 14,7,Shooter
+72,145,42,2,Battlefield 4,7.3,Action
+73,310,97,9,Super Mario 3D World,8.7,Sports
+74,460,139,3,Watch Dogs,8.8,Sports
+75,151,42,1,NHL 15,8.4,Action
+76,453,145,3,LEGO The Hobbit,7.2,Action
+77,453,145,3,The LEGO Movie Videogame,8.1,Action
+78,341,42,2,Plants vs. Zombies: Garden Warfare,9.5,Strategy
+79,442,4,3,Skylanders: Trap Team,7.5,Sports
+80,457,139,10,Just Dance 2015,7.5,Simulation
+81,453,145,3,Lego Batman 3: Beyond Gotham,7.4,Sports
+82,151,42,1,EA Sports UFC,9.1,Action
+83,109,116,2,Alien: Isolation,7.5,Action
+84,234,89,2,Sunset Overdrive,7.1,Shooter
+85,499,130,1,WWE 2K15,7.5,Shooter
+86,311,97,12,Captain Toad: Treasure Tracker,7.5,Action
+87,325,97,3,Hyrule Warriors,7.9,Misc
+88,262,76,3,Metal Gear Solid V: Ground Zeroes,9,Action
+89,339,89,6,Forza Horizon 2,8.7,Action
+90,365,97,9,Donkey Kong Country: Tropical Freeze,8.2,Sports
+91,279,16,2,Wolfenstein: The New Order,8.3,Shooter
+92,464,139,6,The Crew,7.7,Sports
+93,423,16,3,The Evil Within,8.2,Puzzle
+94,418,119,9,LittleBigPlanet 3,8.8,Action
+95,62,42,4,Dragon Age: Inquisition,8.1,Action
+96,174,119,6,DriveClub,9.2,Racing
+97,151,42,1,Madden NFL 15,7.1,Racing
+98,483,130,1,NBA 2K15,7.2,Action
+99,417,119,3,inFAMOUS: Second Son,7.7,Platform
+100,357,3,2,Sniper Elite 3,7.4,Role-Playing
+101,364,42,2,Titanfall,8.9,Racing
+102,299,145,3,Middle-Earth: Shadow of Mordor,9.3,Sports
+103,286,42,7,The Sims 4,9.5,Action
+104,12,89,2,Halo: The Master Chief Collection,7.8,Shooter
+105,469,139,3,Assassin's Creed: Unity,7.6,Action
+106,460,139,2,Far Cry 4,9.2,Simulation
+107,86,4,2,Destiny,7.6,Action
+108,151,42,1,FIFA 15,9.4,Sports
+109,310,97,6,Mario Kart 8,8.9,Racing
+110,392,4,2,Call of Duty: Advanced Warfare,7.8,Shooter
+111,492,145,5,Mortal Kombat X,8.9,Action
+112,479,4,3,Skylanders: SuperChargers,7.9,Fighting
+113,457,139,10,Just Dance 2016,7.2,Strategy
+114,152,42,1,NHL 16,7.1,Strategy
+115,443,145,3,LEGO Dimensions,7.6,Role-Playing
+116,181,4,10,Guitar Hero Live,8.4,Sports
+117,198,130,2,Borderlands: The Handsome Collection,9.4,Action
+118,453,145,3,LEGO Jurassic World,7.5,Misc
+119,456,130,2,Evolve,9.5,Platform
+120,132,95,5,Dragon Ball: XenoVerse,8.5,Action
+121,369,130,3,Grand Theft Auto V,9,Action
+122,499,130,1,WWE 2K16,7.9,Misc
+123,393,117,6,Project CARS,9.5,Sports
+124,500,16,4,The Elder Scrolls Online,8.4,Racing
+125,203,97,9,Yoshi's Woolly World,9.4,Shooter
+126,314,97,10,Mario Party 10,8.8,Shooter
+127,419,121,8,Until Dawn,8.6,Racing
+128,354,119,2,The Order: 1886,9.4,Fighting
+129,455,89,6,Forza Motorsport 6,9.4,Sports
+130,44,124,3,Just Cause 3,7,Role-Playing
+131,85,4,2,Destiny: The Taken King,8.1,Platform
+132,427,145,3,Dying Light,7.5,Misc
+133,482,42,2,Battlefield: Hardline,7.3,Shooter
+134,460,139,2,Tom Clancy's Rainbow Six: Siege,9.5,Racing
+135,183,119,3,Bloodborne,8.9,Action
+136,310,97,9,Super Mario Maker,8.5,Shooter
+137,151,42,1,Madden NFL 16,7.3,Action
+138,407,89,2,Gears of War: Ultimate Edition,9.1,Shooter
+139,462,139,3,Assassin's Creed Syndicate,7.2,Shooter
+140,263,76,3,Metal Gear Solid V: The Phantom Pain,9.2,Action
+141,483,130,1,NBA 2K16,9.5,Sports
+142,372,145,3,Batman: Arkham Knight,8.5,Shooter
+143,94,95,4,The Witcher 3: Wild Hunt,9.3,Action
+144,310,97,2,Splatoon,7.4,Sports
+145,12,89,2,Halo 5: Guardians,7.6,Action
+146,79,119,3,Uncharted: The Nathan Drake Collection,8.1,Shooter
+147,54,16,4,Fallout 4,8.2,Action
+148,151,42,1,FIFA 16,7.2,Role-Playing
+149,201,48,7,Farming Simulator 17,7.8,Action
+150,113,124,8,Rise of the Tomb Raider,8.2,Platform
+151,218,61,3,No Man's Sky,9.5,Role-Playing
+152,183,95,4,Dark Souls III,7.6,Role-Playing
+153,341,42,2,Plants vs. Zombies: Garden Warfare 2,7.8,Shooter
+154,453,145,3,Lego Star Wars: The Force Awakens,8.4,Sports
+155,453,145,3,LEGO Marvel's Avengers,8.3,Sports
+156,364,42,2,Titanfall 2,8.2,Action
+157,151,42,1,EA Sports UFC 2,9.5,Action
+158,47,95,5,Pokken Tournament,8.5,Action
+159,424,97,3,The Legend of Zelda: Twilight Princess HD,8.5,Sports
+160,339,89,6,Forza Horizon 3,9.4,Fighting
+161,460,139,3,Watch Dogs 2,7.9,Action
+162,119,95,5,Naruto Shippuden: Ultimate Ninja Storm 4,8.6,Racing
+163,430,89,2,Gears of War 4,7.5,Action
+164,151,42,1,Madden NFL 17,8.4,Fighting
+165,210,130,3,Mafia III,7.9,Action
+166,483,130,1,NBA 2K17,7.1,Sports
+167,71,4,2,Overwatch,7.7,Action
+168,460,139,3,Far Cry: Primal,8,Shooter
+169,283,139,2,Tom Clancy's The Division,9.5,Action
+170,145,42,2,Battlefield 1,7.2,Shooter
+171,230,4,2,Call of Duty: Infinite Warfare,9.5,Shooter
+172,305,119,2,Uncharted 4: A Thief's End,8.4,Shooter
+173,153,42,1,FIFA 17,7.3,Sports
