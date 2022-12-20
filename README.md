@@ -103,6 +103,9 @@ group by  v2.Game_Id,v2.GameTitle) y <br>
 on y.Game_Id=g.Game_Id	 <br> 
 order by y.TotalSales desc LIMIT 5; <br> 
 
+![SalesGroup](https://user-images.githubusercontent.com/114496063/208733678-9dfad441-afcc-4060-a317-26791cd9efa9.png)
+
+
 ### Counting Groups to see distribution <br> 
 select z.SalesGroup,count(z.SalesGroup) as CountSalesGroup from games g2 <br> 
 inner join (select g.Game_Id,g.`Name` as GameTitle,y.TotalSales, <br> 
