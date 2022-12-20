@@ -17,6 +17,7 @@ select COUNT(*) from games; <br>
 
 select * from videogamessales LIMIT 5; <br> 
 
+![videogamesales](https://user-images.githubusercontent.com/114496063/208733774-4e09133b-7158-4879-b5d2-9820b40966e2.png)
 
 select COUNT(*) from videogamessales; <br>
 
