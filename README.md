@@ -4,7 +4,7 @@
 In this code I used games, videogamessales, developers and publishers excel files. <br> 
 You can import this files to an SQL database. I created these excel files based on total sales. <br> 
 
-### select games table <br> 
+### - select games table <br> 
 
 select * from games LIMIT 5; <br> 
 
@@ -14,7 +14,7 @@ select COUNT(*) from games; <br>
 
 ![gamescount](https://user-images.githubusercontent.com/114496063/208733494-f4029cf4-76eb-4e01-aad8-e2804ebbd296.png)
 
-### select videogamessales table. videogamessales table has Total_Sales, Revenue, Development_Cost and Countries. This means there are GameIds more than 1 in this table. Also, We can create Profit Column. <br> 
+### - select videogamessales table. videogamessales table has Total_Sales, Revenue, Development_Cost and Countries. This means there are GameIds more than 1 in this table. Also, We can create Profit Column. <br> 
 
 select * from videogamessales LIMIT 5; <br> 
 
@@ -24,7 +24,7 @@ select COUNT(*) from videogamessales; <br>
 
 ![videogamesalescount](https://user-images.githubusercontent.com/114496063/208733808-3b8a50ba-5bc9-4c72-8a1f-a2adbeeb72be.png)
 
-### select developers table <br> 
+### - select developers table <br> 
 
 select * from developers LIMIT 5; <br> 
 
@@ -34,7 +34,7 @@ select COUNT(*) from developers; <br>
 
 ![DevelopersCount](https://user-images.githubusercontent.com/114496063/208733383-1a15c421-9f03-4d45-9829-c5af2148a52a.png)
 
-### select publishers table <br> 
+### - select publishers table <br> 
 
 select * from publishers LIMIT 5; <br> 
 
@@ -44,7 +44,7 @@ select COUNT(*) from publishers; <br>
 
 ![publishersCount](https://user-images.githubusercontent.com/114496063/208733578-895dad3f-879c-4402-874a-ab40b5c869d3.png)
 
-### Creating one single view to combine all data. To create one single view first let's join tables. We can use inner join to join all tables and then we can use create view function to create a new view. <br> 
+### - Creating one single view to combine all data. To create one single view first let's join tables. We can use inner join to join all tables and then we can use create view function to create a new view. <br> 
 
 create view videogamesalesview as  <br> 
 SELECT v.Game_Id,v.Platform,v.Region,v.Country,v.Total_Sales,v.Revenue,v.Development_Cost,(v.Revenue-v.Development_Cost) as Profit, <br> 
@@ -56,12 +56,12 @@ on d.Developer_ID=g.Developer_ID <br>
 inner join publishers p <br> 
 on p.Publisher_ID=g.Publisher_ID; <br> 
 
-### select videogamesalesview view <br> 
+### - select videogamesalesview view <br> 
 select * from videogamesalesview limit 5; <br> 
 
 ![VideoGameSalesView](https://user-images.githubusercontent.com/114496063/208733834-44be431e-1c5b-495c-a232-546414ac1edd.png)
 
-### Top 5 Video Games based on profit <br> 
+### - Top 5 Video Games based on profit <br> 
 
 select v.GameTitle,sum(v.profit) as profit from videogamesalesview v <br> 
 group by v.GameTitle  <br> 
@@ -70,7 +70,7 @@ limit 5; <br>
 
 ![Top5Profit](https://user-images.githubusercontent.com/114496063/208733728-a205c802-4e1b-4521-8af5-fee50a231448.png)
 
-### Profit across selected Publisher  <br> 
+### - Profit across selected Publisher  <br> 
 
 select v.GameTitle,sum(v.profit) as profit,sum(v.total_sales) as TotalSales from videogamesalesview v <br> 
 where v.Publisher='Electronic Arts' <br> 
@@ -79,7 +79,7 @@ order by profit desc LIMIT 5; <br>
 
 ![PublisherProfit](https://user-images.githubusercontent.com/114496063/208733522-1e066266-c977-4c74-9c86-22234145f152.png)
 
-### Percentage of sales across countries for a selected game  <br> 
+### - Percentage of sales across countries for a selected game  <br> 
 
 select v.`Name` as GameTitle,x.country,y.TotalSales,CountrySales,x.CountrySales/y.TotalSales*100 as CountryPercentage from Games v inner join ( <br> 
 select v2.Game_Id,v2.GameTitle,sum(v2.total_Sales) as TotalSales from videogamesalesview v2  <br> 
@@ -94,7 +94,7 @@ order by CountryPercentage desc LIMIT 5; <br>
 
 ![GameSalesPercentage](https://user-images.githubusercontent.com/114496063/208733469-10f40c01-c3a1-4382-97db-4a0ecb26d5e7.png)
 
-### Creating Groups across Sales. Using case when to create groups <br> 
+### - Creating Groups across Sales. Using case when to create groups <br> 
 
 select g.Game_Id,g.`Name` as GameTitle,y.TotalSales, <br> 
 case when y.TotalSales >15000000 then 'More Than 15M' <br> 
@@ -111,7 +111,7 @@ order by y.TotalSales desc LIMIT 5; <br>
 
 
 
-### Counting Groups to see distribution <br> 
+### - Counting Groups to see distribution <br> 
 select z.SalesGroup,count(z.SalesGroup) as CountSalesGroup from games g2 <br> 
 inner join (select g.Game_Id,g.`Name` as GameTitle,y.TotalSales, <br> 
 case when y.TotalSales >15000000 then '1-More Than 15M' <br> 
@@ -129,7 +129,7 @@ order by z.SalesGroup; <br>
 
 ![SalesDistribution](https://user-images.githubusercontent.com/114496063/208733614-802ccff4-b54d-41ff-bd5f-199fc3c5dddb.png)
 
-### Best selling Country in every continent for a selected game  <br> 
+### - Best selling Country in every continent for a selected game  <br> 
 
 select * from (  <br> 
 select v.Game_Id,v.`Name` as GameTitle,y.Region,y.Country,y.TotalSales, <br> 
