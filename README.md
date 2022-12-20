@@ -52,7 +52,7 @@ select COUNT(*) from developers; <br>
 
 ![DevelopersCount](https://user-images.githubusercontent.com/114496063/208733383-1a15c421-9f03-4d45-9829-c5af2148a52a.png)
 
-- check duplicates in developers table
+### - check duplicates in developers table
 
 SELECT d.Developer_ID as Developer_ID , COUNT(*) as DuplicateDeveloper_ID
 FROM developers d
@@ -71,7 +71,7 @@ select COUNT(*) from publishers; <br>
 
 ![publishersCount](https://user-images.githubusercontent.com/114496063/208733578-895dad3f-879c-4402-874a-ab40b5c869d3.png)
 
-- check duplicates in publishers table
+### - check duplicates in publishers table
 
 SELECT p.Publisher_ID as Publisher_ID , COUNT(*) as DuplicatePublisher_ID
 FROM publishers p
