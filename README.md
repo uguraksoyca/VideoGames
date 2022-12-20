@@ -35,7 +35,7 @@ on d.Developer_ID=g.Developer_ID <br>
 inner join publishers p <br> 
 on p.Publisher_ID=g.Publisher_ID; <br> 
 
-### Check videogamesalesview view <br> 
+### select videogamesalesview view <br> 
 select * from videogamesalesview limit 5; <br> 
 
 ![VideoGameSalesView](https://user-images.githubusercontent.com/114496063/208733834-44be431e-1c5b-495c-a232-546414ac1edd.png)
