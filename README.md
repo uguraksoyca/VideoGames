@@ -91,6 +91,8 @@ on x.Game_Id=v.Game_Id <br>
 where v.`Name`='FIFA 17' <br> 
 order by CountryPercentage desc LIMIT 5; <br> 
 
+![GameSalesPercentage](https://user-images.githubusercontent.com/114496063/208733469-10f40c01-c3a1-4382-97db-4a0ecb26d5e7.png)
+
 ![SalesforSelectedGame](https://user-images.githubusercontent.com/114496063/208733649-2668e3e2-d897-4944-b1f5-fd9a112c3272.png)
 
 ### Creating Groups across Sales. Using case when to create groups <br> 
@@ -108,7 +110,7 @@ order by y.TotalSales desc LIMIT 5; <br>
 
 ![SalesGroup](https://user-images.githubusercontent.com/114496063/208733678-9dfad441-afcc-4060-a317-26791cd9efa9.png)
 
-![SalesDistribution](https://user-images.githubusercontent.com/114496063/208733614-802ccff4-b54d-41ff-bd5f-199fc3c5dddb.png)
+
 
 ### Counting Groups to see distribution <br> 
 select z.SalesGroup,count(z.SalesGroup) as CountSalesGroup from games g2 <br> 
@@ -126,6 +128,7 @@ on z.Game_Id=g2.Game_Id <br>
 group by z.SalesGroup  <br> 
 order by z.SalesGroup; <br> 
 
+![SalesDistribution](https://user-images.githubusercontent.com/114496063/208733614-802ccff4-b54d-41ff-bd5f-199fc3c5dddb.png)
 
 ### Best selling Country in every continent for a selected game  <br> 
 
