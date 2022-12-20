@@ -105,6 +105,7 @@ order by y.TotalSales desc LIMIT 5; <br>
 
 ![SalesGroup](https://user-images.githubusercontent.com/114496063/208733678-9dfad441-afcc-4060-a317-26791cd9efa9.png)
 
+![SalesDistribution](https://user-images.githubusercontent.com/114496063/208733614-802ccff4-b54d-41ff-bd5f-199fc3c5dddb.png)
 
 ### Counting Groups to see distribution <br> 
 select z.SalesGroup,count(z.SalesGroup) as CountSalesGroup from games g2 <br> 
