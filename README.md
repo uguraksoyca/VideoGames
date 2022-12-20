@@ -6,22 +6,41 @@ You can import this files to an SQL database. <br>
 ### select games table <br> 
 
 select * from games LIMIT 5; <br> 
+
+
+
 select COUNT(*) from games; <br> 
+
+
 
 ### select videogamessales table. videogamessales table has Total_Sales, Revenue, Development_Cost and Countries. This means there are GameIds more than 1 in this table. Also, We can create Profit Column. <br> 
 
 select * from videogamessales LIMIT 5; <br> 
-select COUNT(*) from videogamessales; <br> 
+
+
+select COUNT(*) from videogamessales; <br>
+
+![videogamesalescount](https://user-images.githubusercontent.com/114496063/208733808-3b8a50ba-5bc9-4c72-8a1f-a2adbeeb72be.png)
 
 ### select developers table <br> 
 
 select * from developers LIMIT 5; <br> 
+
+
+
 select COUNT(*) from developers; <br> 
+
+
 
 ### select publishers table <br> 
 
 select * from publishers LIMIT 5; <br> 
+
+
+
 select COUNT(*) from publishers; <br> 
+
+
 
 ### Creating one single view to combine all data. To create one single view first let's join tables. We can use inner join to join all tables and then we can use create view function to create a new view. <br> 
 
