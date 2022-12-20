@@ -33,6 +33,15 @@ select COUNT(*) from videogamessales; <br>
 
 ![videogamesalescount](https://user-images.githubusercontent.com/114496063/208733808-3b8a50ba-5bc9-4c72-8a1f-a2adbeeb72be.png)
 
+### - check duplicates in videogamessales table <br> 
+
+SELECT v.`Sales ID` as SalesID , COUNT(*) as DuplicateSalesId
+FROM videogamessales v
+GROUP BY v.`Sales ID`
+HAVING COUNT(*) > 1;
+
+
+
 ### - select developers table <br> 
 
 select * from developers LIMIT 5; <br> 
@@ -43,6 +52,13 @@ select COUNT(*) from developers; <br>
 
 ![DevelopersCount](https://user-images.githubusercontent.com/114496063/208733383-1a15c421-9f03-4d45-9829-c5af2148a52a.png)
 
+SELECT d.Developer_ID as Developer_ID , COUNT(*) as DuplicateDeveloper_ID
+FROM developers d
+GROUP BY d.Developer_ID
+HAVING COUNT(*) > 1;
+
+
+
 ### - select publishers table <br> 
 
 select * from publishers LIMIT 5; <br> 
@@ -52,6 +68,13 @@ select * from publishers LIMIT 5; <br>
 select COUNT(*) from publishers; <br> 
 
 ![publishersCount](https://user-images.githubusercontent.com/114496063/208733578-895dad3f-879c-4402-874a-ab40b5c869d3.png)
+
+SELECT p.Publisher_ID as Publisher_ID , COUNT(*) as DuplicatePublisher_ID
+FROM publishers p
+GROUP BY p.Publisher_ID
+HAVING COUNT(*) > 1;
+
+
 
 ### - Creating one single view to combine all data. To create one single view first let's join tables. We can use inner join to join all tables and then we can use create view function to create a new view. <br> 
 
