@@ -93,8 +93,6 @@ order by CountryPercentage desc LIMIT 5; <br>
 
 ![GameSalesPercentage](https://user-images.githubusercontent.com/114496063/208733469-10f40c01-c3a1-4382-97db-4a0ecb26d5e7.png)
 
-![SalesforSelectedGame](https://user-images.githubusercontent.com/114496063/208733649-2668e3e2-d897-4944-b1f5-fd9a112c3272.png)
-
 ### Creating Groups across Sales. Using case when to create groups <br> 
 
 select g.Game_Id,g.`Name` as GameTitle,y.TotalSales, <br> 
@@ -141,6 +139,7 @@ on y.Game_Id=v.Game_Id) t <br>
 where t.TotalSalesRank=1 and GameTitle='FIFA 17' <br> 
 order by TotalSales desc <br> 
 
+![SalesforSelectedGame](https://user-images.githubusercontent.com/114496063/208733649-2668e3e2-d897-4944-b1f5-fd9a112c3272.png)
 
 
 
