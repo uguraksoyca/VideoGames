@@ -27,7 +27,7 @@ select COUNT(*) from videogamessales; <br>
 
 select * from developers LIMIT 5; <br> 
 
-
+![Developers](https://user-images.githubusercontent.com/114496063/208733349-6103d92e-0a50-4ea2-b968-5cd2ca3b254f.png)
 
 select COUNT(*) from developers; <br> 
 
