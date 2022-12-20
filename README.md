@@ -37,7 +37,7 @@ select COUNT(*) from developers; <br>
 
 select * from publishers LIMIT 5; <br> 
 
-
+![publishers](https://user-images.githubusercontent.com/114496063/208733547-98b4c99d-cb3e-4850-a4a8-82a4ab140849.png)
 
 select COUNT(*) from publishers; <br> 
 
