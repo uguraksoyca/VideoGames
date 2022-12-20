@@ -57,7 +57,7 @@ FROM developers d
 GROUP BY d.Developer_ID
 HAVING COUNT(*) > 1;
 
-
+![developerDuplicate](https://user-images.githubusercontent.com/114496063/208742197-ad497fa7-8e1d-46bd-b862-60338b526982.png)
 
 ### - select publishers table <br> 
 
