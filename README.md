@@ -7,7 +7,7 @@ You can import this files to an SQL database. <br>
 
 select * from games LIMIT 5; <br> 
 
-
+![games](https://user-images.githubusercontent.com/114496063/208733418-eb030315-b423-4975-91b7-1563d02d16ac.png)
 
 select COUNT(*) from games; <br> 
 
