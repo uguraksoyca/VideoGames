@@ -38,6 +38,8 @@ on p.Publisher_ID=g.Publisher_ID; <br>
 ### Check videogamesalesview view <br> 
 select * from videogamesalesview limit 5; <br> 
 
+![VideoGameSalesView](https://user-images.githubusercontent.com/114496063/208733834-44be431e-1c5b-495c-a232-546414ac1edd.png)
+
 ### Top 10 Video Games based on profit <br> 
 
 select v.GameTitle,sum(v.profit) as profit from videogamesalesview v <br> 
