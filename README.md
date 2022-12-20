@@ -11,7 +11,7 @@ select * from games LIMIT 5; <br>
 
 select COUNT(*) from games; <br> 
 
-
+![gamescount](https://user-images.githubusercontent.com/114496063/208733494-f4029cf4-76eb-4e01-aad8-e2804ebbd296.png)
 
 ### select videogamessales table. videogamessales table has Total_Sales, Revenue, Development_Cost and Countries. This means there are GameIds more than 1 in this table. Also, We can create Profit Column. <br> 
 
