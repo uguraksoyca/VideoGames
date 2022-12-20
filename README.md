@@ -40,7 +40,7 @@ FROM videogamessales v
 GROUP BY v.`Sales ID`
 HAVING COUNT(*) > 1;
 
-
+![videogamesalesduplicate](https://user-images.githubusercontent.com/114496063/208743075-b3be171b-e34a-473a-afb0-d6232b9b2274.png)
 
 ### - select developers table <br> 
 
@@ -80,7 +80,8 @@ HAVING COUNT(*) > 1;
 
 ![PublisherDuplicate](https://user-images.githubusercontent.com/114496063/208742925-c81358b2-b85a-458d-a2f3-38e0fc0f5a83.png)
 
-### - Creating one single view to combine all data. To create one single view first let's join tables. We can use inner join to join all tables and then we can use create view function to create a new view. <br> 
+
+### - Tables don't have any duplicate values. We can create one single view to combine all data. To create one single view first let's join tables. We can use inner join to join all tables and then we can use create view function to create a new view. <br> 
 
 create view videogamesalesview as  <br> 
 SELECT v.Game_Id,v.Platform,v.Region,v.Country,v.Total_Sales,v.Revenue,v.Development_Cost,(v.Revenue-v.Development_Cost) as Profit, <br> 
