@@ -78,7 +78,7 @@ FROM publishers p
 GROUP BY p.Publisher_ID
 HAVING COUNT(*) > 1;
 
-
+![PublisherDuplicate](https://user-images.githubusercontent.com/114496063/208742605-d2d94cb2-088b-42fb-b788-d3e5c07a91bd.png)
 
 ### - Creating one single view to combine all data. To create one single view first let's join tables. We can use inner join to join all tables and then we can use create view function to create a new view. <br> 
 
