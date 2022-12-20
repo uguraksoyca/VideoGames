@@ -1,6 +1,6 @@
-# VideoGameSalesAnalysis
+# VIDEO GAME SALES ANALYSIS
 
-# SQL ANALYSIS
+# SQL
 In this code I used games, videogamessales, developers and publishers excel files. <br> 
 You can import this files to an SQL database. I created these excel files based on total sales. <br> 
 
