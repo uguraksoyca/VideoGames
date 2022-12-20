@@ -41,7 +41,7 @@ select * from publishers LIMIT 5; <br>
 
 select COUNT(*) from publishers; <br> 
 
-
+![publishersCount](https://user-images.githubusercontent.com/114496063/208733578-895dad3f-879c-4402-874a-ab40b5c869d3.png)
 
 ### Creating one single view to combine all data. To create one single view first let's join tables. We can use inner join to join all tables and then we can use create view function to create a new view. <br> 
 
