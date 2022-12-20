@@ -1,6 +1,6 @@
 # VideoGameSalesAnalysis
 
-#SQL ANALYSIS
+# SQL ANALYSIS
 In this code I used games, videogamessales, developers and publishers excel files. <br> 
 You can import this files to an SQL database. I created these excel files based on total sales. <br> 
 
@@ -142,7 +142,7 @@ order by TotalSales desc <br>
 
 ![SalesforSelectedGame](https://user-images.githubusercontent.com/114496063/208733649-2668e3e2-d897-4944-b1f5-fd9a112c3272.png)
 
-#TABLEAU DASHBOARDs
+# TABLEAU DASHBOARDS
 
 ![Total Sales Dashboard](https://user-images.githubusercontent.com/114496063/208736991-4501d616-23cb-4484-83da-c6fce9bd1003.png)
 
