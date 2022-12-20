@@ -8,10 +8,7 @@ You can import this files to an SQL database. <br>
 select * from games LIMIT 5; <br> 
 select COUNT(*) from games; <br> 
 
-### select videogamessales table <br> 
-### videogamessales table has Total_Sales, Revenue, Development_Cost and Countries.  <br> 
-### This means there are GameIds more than 1 in this table.  <br> 
-### Also, We can create Profit Column*/ <br> 
+### select videogamessales table. videogamessales table has Total_Sales, Revenue, Development_Cost and Countries. This means there are GameIds more than 1 in this table. Also, We can create Profit Column. <br> 
 
 select * from videogamessales LIMIT 5; <br> 
 select COUNT(*) from videogamessales; <br> 
@@ -26,10 +23,7 @@ select COUNT(*) from developers; <br>
 select * from publishers LIMIT 5; <br> 
 select COUNT(*) from publishers; <br> 
 
-### Creating one single view to combine all data. <br> 
-### To create one single view first let's join tables.  <br> 
-### We can use inner join to join all tables <br> 
-### and then we can use create view function to create a new view */ <br> 
+### Creating one single view to combine all data. To create one single view first let's join tables. We can use inner join to join all tables and then we can use create view function to create a new view. <br> 
 
 create view videogamesalesview as  <br> 
 SELECT v.Game_Id,v.Platform,v.Region,v.Country,v.Total_Sales,v.Revenue,v.Development_Cost,(v.Revenue-v.Development_Cost) as Profit, <br> 
@@ -72,8 +66,7 @@ on x.Game_Id=v.Game_Id <br>
 where v.`Name`='FIFA 17' <br> 
 order by CountryPercentage desc LIMIT 5; <br> 
 
-### Creating Groups across Sales <br> 
-### Using case when to create groups <br> 
+### Creating Groups across Sales. Using case when to create groups <br> 
 
 select g.Game_Id,g.`Name` as GameTitle,y.TotalSales, <br> 
 case when y.TotalSales >15000000 then 'More Than 15M' <br> 
