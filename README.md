@@ -60,12 +60,14 @@ select * from videogamesalesview limit 5; <br>
 
 ![VideoGameSalesView](https://user-images.githubusercontent.com/114496063/208733834-44be431e-1c5b-495c-a232-546414ac1edd.png)
 
-### Top 10 Video Games based on profit <br> 
+### Top 5 Video Games based on profit <br> 
 
 select v.GameTitle,sum(v.profit) as profit from videogamesalesview v <br> 
 group by v.GameTitle  <br> 
 order by profit desc  <br> 
 limit 5; <br> 
+
+![Top5Profit](https://user-images.githubusercontent.com/114496063/208733728-a205c802-4e1b-4521-8af5-fee50a231448.png)
 
 ### Profit across selected Publisher  <br> 
 
