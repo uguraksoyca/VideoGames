@@ -90,6 +90,8 @@ on x.Game_Id=v.Game_Id <br>
 where v.`Name`='FIFA 17' <br> 
 order by CountryPercentage desc LIMIT 5; <br> 
 
+![SalesforSelectedGame](https://user-images.githubusercontent.com/114496063/208733649-2668e3e2-d897-4944-b1f5-fd9a112c3272.png)
+
 ### Creating Groups across Sales. Using case when to create groups <br> 
 
 select g.Game_Id,g.`Name` as GameTitle,y.TotalSales, <br> 
