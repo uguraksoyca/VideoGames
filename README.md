@@ -31,7 +31,7 @@ select * from developers LIMIT 5; <br>
 
 select COUNT(*) from developers; <br> 
 
-
+![DevelopersCount](https://user-images.githubusercontent.com/114496063/208733383-1a15c421-9f03-4d45-9829-c5af2148a52a.png)
 
 ### select publishers table <br> 
 
