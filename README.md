@@ -76,6 +76,7 @@ where v.Publisher='Electronic Arts' <br>
 group by v.GameTitle ,v.Platform <br> 
 order by profit desc LIMIT 5; <br> 
 
+![PublisherProfit](https://user-images.githubusercontent.com/114496063/208733522-1e066266-c977-4c74-9c86-22234145f152.png)
 
 ### Percentage of sales across countries for a selected game  <br> 
 
