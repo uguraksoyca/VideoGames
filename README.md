@@ -14,12 +14,14 @@ select COUNT(*) from games; <br>
 
 ![gamescount](https://user-images.githubusercontent.com/114496063/208733494-f4029cf4-76eb-4e01-aad8-e2804ebbd296.png)
 
+### - check duplicates in games table <br> 
+
 SELECT g.Game_Id , COUNT(*) as DuplicateGameId
 FROM games g
 GROUP BY g.Game_Id
 HAVING COUNT(*) > 1;
 
-
+![GamesDuplicates](https://user-images.githubusercontent.com/114496063/208740744-9a07a0ad-b5b0-4ea0-a93e-b233a36c7c49.png)
 
 ### - select videogamessales table. videogamessales table has Total_Sales, Revenue, Development_Cost and Countries. This means there are GameIds more than 1 in this table. Also, We can create Profit Column. <br> 
 
