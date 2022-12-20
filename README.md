@@ -146,6 +146,7 @@ order by TotalSales desc <br>
 
 ![Total Sales Dashboard](https://user-images.githubusercontent.com/114496063/208736991-4501d616-23cb-4484-83da-c6fce9bd1003.png)
 
+![Publisher Dashboard](https://user-images.githubusercontent.com/114496063/208736928-65c7153d-f35f-4726-9d6d-21bf15ff94a2.png)
 
 
 
